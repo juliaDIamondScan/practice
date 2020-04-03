@@ -1,0 +1,51 @@
+.box1 {
+    background: green;
+    height: 10em;
+    width: 10em;
+}
+
+.box2 {
+    background: blue;
+    height: 10em;
+    width: 10em;
+}
+
+.box3 {
+    background: purple;
+    height: 10em;
+    width: 10em;
+}
+
+.wrapper {
+    display: flex;
+  }
+
+  .box1 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .box2 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .box3 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
